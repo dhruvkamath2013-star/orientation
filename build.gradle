@@ -1,0 +1,22 @@
+/**
+ * Top-level build file for ftc_app project.
+ *
+ * It is extraordinarily rare that you will ever need to edit this file.
+ */
+
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        //maven { url 'https://www.ftc.io/maven' }
+        // The following line is essential for the latest SDK
+        //maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        // Note for FTC Teams: Do not modify this yourself.
+        classpath 'com.android.tools.build:gradle:8.7.0'
+    }
+}
+
+
+
